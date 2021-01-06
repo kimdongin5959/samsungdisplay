@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{
+    height:80px;
+    line-height:80px;
+    border-bottom:1px solid #e5e5e5;
+    margin-bottom:30px;
+}
+
+#header h1{float:left;}
+#header h1 a{}
+#header h1 img{}
+
+
+.gnb{
+    float:left;
+    margin-left:80px;
+}
+.gnb li{
+    float:left;
+    margin-right:30px;
+}
+.gnb li a{}
+
+/*서브메뉴*/
+.lnb{
+    position:absolute;
+    line-height:30px;
+    font-size:13px;
+    display:none;
+}
+.gnb li:hover .lnb{display:block;}
+.lnb li{}
+.lnb li a{}
+.lnb li:hover a{
+    font-weight:bold;
+    color:#007CC0
+}
+
+.langList{
+    float:right;
+    font-size:13px;
+}
+.langList li{
+    float:left;
+    margin-left:15px;
+}
+.langList li a{}
+.langOn a{
+    color:#007cc0;
+    font-weight:bold;
+}
+
+/*푸터*/
+#footer{
+    border-top:1px solid #eee;
+    margin-top:50px;
+    padding:30px 0;
+}
+#footer .inner{position:relative;}
+
+.fLogo{
+    float:left;
+    margin-top:25px;
+}
+.fLogo img{}
+
+.fInfo{
+    float:left;
+    font-size:11px;
+    margin-left:30px;
+    color:#CCC;
+}
+.fMenu{}
+.fMenu li{
+    float:left;
+    padding-bottom:20px;
+}
+.fMenu li::after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:8px;
+    background:#CCC;
+    margin:0 3px;
+}
+.fMenu li:last-child::after{
+    display:none;
+}
+.fMenu li a{color:#CCC;}
+.fInfo p{}
+
+.fMark{
+    position:absolute;
+    right:0;
+}
+.fMark a{}
+.fMark a img{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
